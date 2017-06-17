@@ -11,7 +11,7 @@ def solution(list_of_list):
         for i in k:
             new_merged_list.append(i)
 
-    #print new_merged_list
+    print new_merged_list
     return new_merged_list
 
 print solution(original_list)
