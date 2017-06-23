@@ -7,4 +7,5 @@ def solution(list_of_list):
     '''
     Enter your code here
     '''
+    new_merged_list=list(itertools.chain.from_iterable(list_of_list))
     return new_merged_list
