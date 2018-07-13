@@ -7,4 +7,5 @@ def solution(list_of_list):
     '''
     Enter your code here
     '''
+    new_merged_list = [item for sublist in list_of_list for item in sublist]
     return new_merged_list
